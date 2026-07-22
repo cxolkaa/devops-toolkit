@@ -28,7 +28,7 @@ def main():
     parser.add_argument("--ssl-host", help="Optional hostname for SSL check")
     args = parser.parse_args()
 
-    print("DevOps Toolkit — Health Check Run\n")
+    print("DevOps Toolkit - Health Check Run\n")
     results = []
 
     results.append(run_script("disk_check.py", ["--path", args.disk_path, "--threshold", "95"]))

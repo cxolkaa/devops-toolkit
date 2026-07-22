@@ -52,7 +52,7 @@ def main():
         elif result["ok"]:
             print(f"[OK] {result['path']}: {result['age_hours']}h old (limit {args.max_age_hours}h)")
         else:
-            print(f"[FAIL] {result['path']}: {result['age_hours']}h old — exceeds {args.max_age_hours}h limit")
+            print(f"[FAIL] {result['path']}: {result['age_hours']}h old - exceeds {args.max_age_hours}h limit")
 
     sys.exit(0 if result.get("ok") else 1)
 

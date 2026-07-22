@@ -13,7 +13,7 @@ Collection of practical Python scripts for **IT operations** and **DevOps** dail
 
 ## Features
 
-- CLI-first design — easy to schedule via Task Scheduler / cron
+- CLI-first design - easy to schedule via Task Scheduler / cron
 - JSON output mode for monitoring integrations
 - Non-zero exit codes on failure (automation-friendly)
 - Cross-platform (Windows & Linux)
